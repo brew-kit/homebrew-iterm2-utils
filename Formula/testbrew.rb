@@ -1,9 +1,9 @@
 class Testbrew < Formula
     desc "Test Brew"
     homepage "https://github.com/testing-1-dot/"
-    url "https://github.com/testing-1-dot/testbrew/releases/download/v2.3/testbrew-2.3.tar.gz"
-    sha256 "797e52d843f99e897398a4acddf1234e08373f22f14ff422f7af88a4319548e4"
-    version "2.3"
+    url "https://github.com/testing-1-dot/testbrew/releases/download/v1.3/testbrew-1.3.tar.gz"
+    sha256 "c62a1b1d53d298c2552f2083ad8fe3d93dd99bce04733f15706d94a414217225"
+    version "1.3"
 
     def install
         bin.install Dir["*"]
