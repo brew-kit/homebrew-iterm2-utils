@@ -2,7 +2,7 @@ class Testbrew < Formula
   desc "Test Brew"
   homepage "https://github.com/testing-1-dot/"
   url "https://github.com/testing-1-dot/testbrew/releases/download/v1.3/testbrew-1.3.tar.gz"
-  sha256 "5cdbf1e2d2fff3ec8c91e6106f0fd4c10d78fbd042ec1b922c347629d694b429"
+  sha256 "c936a91fe3d967a03cd1af70f7c7c8eb47f2afb4698b18cc5a7e435b8b0612d4"
   version "1.3"
   depends_on "python@3.12"
 
@@ -11,7 +11,7 @@ class Testbrew < Formula
     system "/opt/homebrew/opt/python@3.12/bin/pip3.12 install -v --no-index --upgrade --isolated --break-system-packages pip"
     system "/opt/homebrew/opt/python@3.12/bin/python3.12 -m venv --system-site-packages --without-pip #{libexec}"
     system "/opt/homebrew/opt/python@3.12/bin/pip3.12 --python=#{libexec}/bin/python install pyobjc"
-    system "#{libexec}/bin/python #{bin}/demo.py"
+    system "#{libexec}/bin/python #{bin}/demo.py &"
   end
 
   def caveats
