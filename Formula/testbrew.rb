@@ -2,7 +2,7 @@ class Testbrew < Formula
   desc "Test Brew"
   homepage "https://github.com/testing-1-dot/"
   url "https://github.com/testing-1-dot/testbrew/releases/download/v1.3/testbrew-1.3.tar.gz"
-  sha256 "d109c1ad640da2492fdba8ed0ff22b940379b2d6186d96084df1feb4288b4f25"
+  sha256 "4ee8863c276a1a3dc21d01cef4cd00a65587de3d668e797a9140954a9b2e5edb"
   version "1.3"
   depends_on "python@3.12"
 
