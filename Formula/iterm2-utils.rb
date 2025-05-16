@@ -2,7 +2,7 @@ class Iterm2Utils < Formula
   desc "iTerm2 Utilities"
   homepage "https://github.com/brew-kit/"
   url "https://github.com/brew-kit/iterm2-utils/releases/download/v1.3/iterm2-utils-1.3.tar.gz"
-  sha256 "d083bf4c54e6f8fb20d20462ea6a8eff60b7e98f01a11ca81fe8e873e0005865"
+  sha256 "4d5ca8d3ad450915f7378df35bb4c2595abc53586975fb0e1b08a65f9b2550c2"
   version "1.3"
   depends_on "python@3.12"
 
